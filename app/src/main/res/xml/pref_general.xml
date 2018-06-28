@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:defaultValue="Pop"
+        android:entries="@array/list"
+        android:entryValues="@array/value"
+        android:key="Settings"
+        android:title="Sorting"
+        />
+
+</PreferenceScreen>
+
